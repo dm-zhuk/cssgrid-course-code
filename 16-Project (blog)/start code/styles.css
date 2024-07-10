@@ -57,7 +57,7 @@
   }
 }
 
-.post > a {
+.post>a {
   position: relative;
   color: var(--common-white);
 }
@@ -78,6 +78,23 @@
   }
 }
 
+.blog {
+  display: grid;
+  gap: 48px;
+}
+
+@media (min-width: 768px) {
+  .blog {
+    gap: 36px;
+  }
+
+  .blog-link {
+    gap: 24px;
+    grid-template-columns: 264px 1fr;
+  }
+}
+
+
 .post-title {
   color: var(--common-white);
   font-family: var(--common-font);
@@ -85,6 +102,8 @@
 
 .blog-link {
   color: var(--common-black);
+  display: grid;
+  gap: 20px;
 }
 
 .blog-title {
@@ -106,6 +125,7 @@
   font-family: var(--common-font);
   margin-bottom: 24px;
 }
+
 .social-link {
   padding: 8px;
   color: var(--common-black, #2f2f37);
