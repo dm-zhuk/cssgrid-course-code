@@ -4,4 +4,9 @@
 
 .container {
   display: grid;
+  width: 600px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 120px 1fr 1.5fr 1fr;
+  */
+  grid-template-columns: 1fr 2fr 1fr;
 }

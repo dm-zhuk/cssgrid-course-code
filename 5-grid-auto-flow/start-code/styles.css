@@ -1,7 +1,21 @@
 @import url(./basic-styles.css);
 
 /* lesson styles */
+/* 
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 100px 100px;
+  grid-auto-flow: row;
+}
+ */
+
 
 .container {
   display: grid;
+  gap: 10px;
+  grid-template-columns: 100px 100px;
+  grid-auto-flow: column;
+  /* grid-auto-flow: auto;
+  grid-auto-flow: dense; */
 }
